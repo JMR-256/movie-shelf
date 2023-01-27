@@ -6,7 +6,7 @@ plugins {
 
 }
 
-group = 'com.jmr256.movieshelf'
+group = 'com.jmr256'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 

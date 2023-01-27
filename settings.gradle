@@ -1,3 +1,4 @@
 rootProject.name = 'movie-shelf'
 include 'scraper-service'
 include 'shelf-service'
+include 'functional'
