@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jmr256.movieshelf.scraper.ScraperApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-20T14:12:00" hostname="UKM3V9DGQ1WN" time="0.165">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.jmr256.movieshelf.scraper.ScraperApplicationTests" time="0.165"/>
+  <system-out><![CDATA[14:12:00.119 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ScraperApplicationTests]: using SpringBootContextLoader
+14:12:00.122 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.jmr256.movieshelf.scraper.ScraperApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:12:00.122 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.jmr256.movieshelf.scraper.ScraperApplicationTests]: ScraperApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:12:00.131 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [ScraperApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+14:12:00.160 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/jry22/Dev/Training/movie-shelf/scraper-service/build/classes/java/main/com/jmr256/movieshelf/scraper/ScraperApplication.class]
+14:12:00.161 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.jmr256.movieshelf.scraper.ScraperApplication for test class com.jmr256.movieshelf.scraper.ScraperApplicationTests
+14:12:00.195 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+14:12:00.195 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+14:12:00.196 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [ScraperApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+14:12:00.197 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [ScraperApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-01-20T14:12:00.310Z  INFO 91032 --- [    Test worker] c.j.m.scraper.ScraperApplicationTests    : Starting ScraperApplicationTests using Java 17.0.2 with PID 91032 (started by jry22 in /Users/jry22/Dev/Training/movie-shelf/scraper-service)
+2023-01-20T14:12:00.311Z  INFO 91032 --- [    Test worker] c.j.m.scraper.ScraperApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-01-20T14:12:00.756Z  INFO 91032 --- [    Test worker] c.j.m.scraper.ScraperApplicationTests    : Started ScraperApplicationTests in 0.541 seconds (process running for 0.976)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
