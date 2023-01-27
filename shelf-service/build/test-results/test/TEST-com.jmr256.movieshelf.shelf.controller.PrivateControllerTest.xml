@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jmr256.movieshelf.shelf.controller.PrivateControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-27T22:11:36" hostname="UKM3V9DGQ1WN" time="0.013">
+  <properties/>
+  <testcase name="privateStatusShouldReturnOK()" classname="com.jmr256.movieshelf.shelf.controller.PrivateControllerTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
